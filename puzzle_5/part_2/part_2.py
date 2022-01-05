@@ -41,6 +41,8 @@ def hidrotermalVenture():
                 if el[1] > el[3]:
                     d[(x1, )]
                     x1 += 1
+                    y1 -= 1
+            
     c = 0
     for key in d.keys():
         if d[key] > 1:
