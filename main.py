@@ -20,4 +20,4 @@ if __name__ == "__main__":
             print("Nothing")
             
     except:
-        raise RuntimeError(f"Check if you call program correctly")
+        raise RuntimeError(f"Check if you called program correctly")
