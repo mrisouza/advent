@@ -16,6 +16,13 @@ if __name__ == "__main__":
 
             result_part_1 = d5_part1.hidrotermalVenture()
             print(result_part_1)
+        elif day == "6":
+            import puzzle_6.part_1.part_1 as d6_part1
+            
+            content = ""
+            for i in range(81):
+                content = d6_part1.lanternfishOffspring(content)
+            print(len(content.split(",")))
         else:
             print("Nothing")
             
